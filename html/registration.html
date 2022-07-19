@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title align="center">Customer Registration</title>
+    </head>
+    <body align="center">
+     <form>
+        <h3><b>Customer Registration</b></h3><br/><br/>
+        User Name:<input type="text" pattern="[a-zA-Z]+" maxlength="15" autofocus/><br/><br/>
+        Password:<input type="password" minlength="8" maxlength="12" pattern="^/\d\w\d/$"/><br/><br/>
+        Email:<input type="email"/><br/><br/>
+        Gender:<input type="radio" name="x"/>Male
+        <input type="radio" name="x"/>Female
+        <input type="radio" name="x"/>Other<br/><br/>
+        Age(Yrs):<input type="number" min="12" max="60"/><br/><br/>
+        Address:<textarea rows="4" cols="12" maxlength="100"></textarea><br/><br/>
+        Company Website:<br/><br/>
+        Choose Country:<input list="Country"/>
+        <datalist id="Country">
+            <option value="India">
+            <option value="United States">
+            <option value="Germany">
+            <option value="Japan">
+          </datalist><br/><br/>
+        Date Of Journey:<input type="date"/><br/><br/>
+        <input type="button" value="Submit"/>
+        <input type="button" value="Reset"/>
+     </form>
+    </body>
+    </html>
