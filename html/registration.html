@@ -4,7 +4,7 @@
         <title align="center">Customer Registration</title>
     </head>
     <body align="center">
-     <form action="success-1.html">
+     <form>
         <h3><b>Customer Registration</b></h3><br/><br/>
         User Name:<input type="text" pattern="[a-zA-Z]+" maxlength="15" autofocus/><br/><br/>
         Password:<input type="password" minlength="8" maxlength="12" pattern="^/\d\w\d/$"/><br/><br/>
@@ -14,7 +14,7 @@
         <input type="radio" name="x"/>Other<br/><br/>
         Age(Yrs):<input type="number" min="12" max="60"/><br/><br/>
         Address:<textarea rows="4" cols="12" maxlength="100"></textarea><br/><br/>
-        Company Website:<br/><br/>
+        Company Website:<input type="url"/><br/><br/>
         Choose Country:<input list="Country"/>
         <datalist id="Country">
             <option value="India">
