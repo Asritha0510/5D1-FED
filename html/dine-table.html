@@ -1,0 +1,73 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   
+    <title>Dine Booking</title>
+</head>
+<body>
+    <table>
+        <h3><b>Dine Booking</b></h3>
+        <form action="success1.html">
+        <tr>
+            <th>Visiter Name</th>
+            <td>
+                <input type="text" />
+            </td>
+        </tr>
+        <tr>
+            <th>Number Of Visiter</th>
+            <td>
+                <input type="number" />
+            </td>
+        </tr>
+        <tr>
+            <th>Phone Number</th>
+            <td>
+                <input type="number" maxlength="10" />
+            </td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>
+                <input type="email" />
+            </td>
+        </tr>
+        <tr>
+            <th>Food</th>
+            <td>
+                <input type="radio" name="x" />South Indian
+                <input type="radio" name="x" />North Indian
+                <input type="radio" name="x" />Chinese
+                <input type="radio" name="x" />Western
+            </td>
+        <tr>
+            <th> Choose Country</th>
+            <td>
+                <input list="Country" />
+                <datalist id="Country">
+                    <option value="India">
+                    <option value="United States">
+                    <option value="Germany">
+                    <option value="Japan">
+                </datalist>
+            </td>
+        </tr>
+
+        <tr>
+            <th>Room Status</th>
+            <td>
+                <input type="radio" name="y" />AC
+                <input type="radio" name="y" />Non-AC
+            </td>
+        <tr>
+           
+            <td>
+                <input type="submit" value="Book" />
+                <input type="reset" value="Reset" />
+            </td>
+        </tr>
+       
+        </form>
+    </table>
+
+</body>
+</html>
