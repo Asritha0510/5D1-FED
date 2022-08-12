@@ -1,0 +1,15 @@
+td{
+    border: 1px solid dashed;
+    width:20px;
+    height:20px;
+}
+.Box{
+    background-color:aqua;
+}
+.Box1{
+    background-color:plum;
+
+}
+.Box2{
+    background-color:lightpink;
+}
