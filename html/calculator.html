@@ -49,7 +49,7 @@ input[type=button] {
             <td> <input type="button" value="(" onclick="display('(')" /> </td>
             <td> <input type="button" value="CE" onclick="display('CE')" /> </td>
             <td> <input type="button" value=")" onclick="display(')')" /> </td>
-            <td> <input type="button" value="*" onclick="clearscreen()" id="btn" /> </td>
+            <td> <input type="button" value="C" onclick="clearScreen()" id="btn" /> </td>
         </tr>
         <tr>
        
@@ -79,11 +79,10 @@ input[type=button] {
     </table>
 
     <script type="text/javascript" >
-       // clear all the values
+// This function clear all the values
 function clearScreen() {
     document.getElementById("result").value = "";
 }
-
 // display values
 function display(value) {
     document.getElementById("result").value += value;
